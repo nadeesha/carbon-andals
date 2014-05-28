@@ -1,0 +1,5 @@
+{
+    "name": "carbon-andals",
+    "version": "0.0.1",
+    "main": ["andals.js"]
+}
