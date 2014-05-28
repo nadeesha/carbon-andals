@@ -16,7 +16,7 @@ angular.module('carbon.andals', ['ui.router'])
             }
         });
     })
-    .controller('andalsCtrl', function ($scope, carbonApiProvider) {
+    .controller('andalsCtrl', function ($scope, carbonApiProvider, $http) {
         $http.get(carbonApiProvider.url('/andalssay')).success(function (data) {
             $scope.apiSays = data;
         });
